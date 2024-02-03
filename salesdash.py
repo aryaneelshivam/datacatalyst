@@ -9,6 +9,7 @@ st.set_page_config(
     page_title="Sales dashboard | Atlas Global",
     page_icon="🍣",
     initial_sidebar_state="expanded",
+    layout="wide"
 )
 st.title('Atlas Global | sales dashboard')
 st.subheader('Interactive sales analysis and visualization dashboard.')
