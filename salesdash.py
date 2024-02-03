@@ -13,7 +13,7 @@ st.set_page_config(
 st.title('Atlas Global | sales dashboard')
 st.subheader('Interactive sales analysis and visualization dashboard.')
 file = open('sample.csv', 'r')
-data = pd.read_csv(file)
+data = pd.read(file)
 
 col1, col2 = st.columns(2)
 #Calculating total sales
