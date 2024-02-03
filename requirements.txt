@@ -1,6 +1,6 @@
 streamlit
 pandas
 matplotlib
-numpy as np 
+numpy
 plotly
 csv
