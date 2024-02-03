@@ -12,7 +12,7 @@ st.set_page_config(
 )
 st.title('Atlas Global | sales dashboard')
 st.subheader('Interactive sales analysis and visualization dashboard.')
-file = open(r'C:\Users\Aryaneel\Desktop\Showcase\sample.csv', 'r')
+file = open('sample.csv', 'r')
 data = pd.read_csv(file, encoding='latin-1')
 
 col1, col2 = st.columns(2)
